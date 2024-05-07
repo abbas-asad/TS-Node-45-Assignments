@@ -1,0 +1,11 @@
+{
+  "name": "ts-node-45-assignments",
+  "version": "1.0.0",
+  "description": "In this project, we have solved all 45 typescript assignments of Governor Sindh IT initiative.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abbas Asad",
+  "license": "MIT"
+}
