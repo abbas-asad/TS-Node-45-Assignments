@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Character Count Example</title>
+</head>
+<body>
+    <textarea id="myTextBox" rows="4" cols="50" onkeyup="countCharacters()"></textarea>
+    <p>Character Count: <span id="charCount">0</span></p>
+
+    <script>
+        function countCharacters() {
+            var textBox = document.getElementById("myTextBox");
+            var charCount = document.getElementById("charCount");
+            charCount.innerText = textBox.value.length;
+        }
+    </script>
+</body>
+</html>
